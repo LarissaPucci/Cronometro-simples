@@ -5,7 +5,7 @@ var hr = 0;
 var time;
 
 function twoDigits(digits){
-    if(digits<10){
+    if(digits<1000){
         return ('0'+digits)
     }else{
         return digits
