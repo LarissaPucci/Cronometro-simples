@@ -5,7 +5,7 @@ var hr = 0;
 var time;
 
 function twoDigits(digits){
-    if(digits<1000){
+    if(digits<10){
         return ('0'+digits)
     }else{
         return digits
@@ -14,7 +14,7 @@ function twoDigits(digits){
 
 function start(){
     counter()
-    time =setInterval(counter, 1);
+    time =setInterval(counter, 1000);
 }
 
 function pause(){
